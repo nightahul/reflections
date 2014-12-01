@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    bug was introduced only when file was changed. viewing only the changes using diff command helped make it easier to spot the bug
+
+ How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+ 	having easy access to history of a file helps us see where we went wrong. most of the times we dont want to give current
+	version to anyone as its unstable i.e. may be buggy while previous versions are stable.
+	
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs 
+having versions automatically saved, like Google docs does?
+
+	pros 
+	    meaningful commits
+		commit when we want 
+		google docs may have large number of "commits"
+	cons
+		person may forget to commit
+		
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	because most of the software development projects are multiple-file.
+	
+How can you use the commands git log and git diff to view the history of files?
+
+	using git log , we can see the various commits we made
+	then using git diff we can find the difference between any two commits
+	
+How might using version control make you more confident to make changes that could break something?
+	because in git we have previous versions. so if we make changes that could introduce bugs, then we can easily go to previous version
+	
+Now that you have your workspace set up, what do you want to try using Git for?
+	i wanted to start a java project. i will use git while making it
+	
+What happens when you initialize a repository? Why do you need to do it?
+	when we initialize a repository, git starts . a .git folder is created that tracks repository
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	staging area is area in which git add adds files. when we commit then commit of staging area is done
+	working directory is the directory that contains all files. we do git add of files in working directory
