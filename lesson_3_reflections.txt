@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+    when a large number of developers are working on same project. sharing a remote repository is easier as compared to sharing local repo.
