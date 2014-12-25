@@ -31,10 +31,3 @@ How might using version control make you more confident to make changes that cou
 	
 Now that you have your workspace set up, what do you want to try using Git for?
 	i wanted to start a java project. i will use git while making it
-	
-What happens when you initialize a repository? Why do you need to do it?
-	when we initialize a repository, git starts . a .git folder is created that tracks repository
-
-How is the staging area different from the working directory and the repository? What value do you think it offers?
-	staging area is area in which git add adds files. when we commit then commit of staging area is done
-	working directory is the directory that contains all files. we do git add of files in working directory
