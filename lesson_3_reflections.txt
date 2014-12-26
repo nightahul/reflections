@@ -15,3 +15,16 @@ Describe the differences between forks, clones, and branches. When would you use
 	now clone it to local machine
 	add, commit
 	git push
+	
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	it is highly probable that last known state may also be current state of remote
+	
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	without git or github, it would be very difficult to collaborate on a team project. The only way 
+	would be using just one version of code and everybody editing it. It would be very difficult to go to 
+	a previous version if a bug creeps in the code 
+	
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+	We should always use a separate branch for making changes as master branch must only be updated by pull 
+	in local machine. Everytime we are adding a special feature use a new branch
